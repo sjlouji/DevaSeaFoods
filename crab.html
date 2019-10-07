@@ -18,121 +18,7 @@
         <link rel="stylesheet" href="css/bootstrap-rtl.min.css" id="changeColorScheme">
         <link rel="stylesheet" href="css/rtl-style.css" id="changeColorScheme">
         <link rel="stylesheet" href="css/custom.css">
-        <style>
-                #gallery {
-                    padding-top: 40px;
-                    }
-                    @media screen and (min-width: 991px) {
-                    #gallery {
-                        padding: 60px 30px 0 30px;
-                    }
-                    }
-    
-                    .img-wrapper {
-                    position: relative;
-                    margin-top: 15px;
-                    }
-                    .img-wrapper img {
-                    width: 100%;
-                    }
-    
-                    .img-overlay {
-                    background: rgba(0, 0, 0, 0.7);
-                    width: 100%;
-                    height: 100%;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    opacity: 0;
-                    }
-                    .img-overlay i {
-                    color: #fff;
-                    font-size: 3em;
-                    }
-    
-                    #overlay {
-                    background: rgba(0, 0, 0, 0.7);
-                    width: 100%;
-                    height: 100%;
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    z-index: 999;
-                    -webkit-user-select: none;
-                    -moz-user-select: none;
-                    -ms-user-select: none;
-                    user-select: none;
-                    }
-                    #overlay img {
-                    margin: 0;
-                    width: 80%;
-                    height: auto;
-                    -o-object-fit: contain;
-                        object-fit: contain;
-                    padding: 5%;
-                    }
-                    @media screen and (min-width: 768px) {
-                    #overlay img {
-                        width: 60%;
-                    }
-                    }
-                    @media screen and (min-width: 1200px) {
-                    #overlay img {
-                        width: 50%;
-                    }
-                    }
-    
-                    #nextButton {
-                    color: #fff;
-                    font-size: 2em;
-                    transition: opacity 0.8s;
-                    }
-                    #nextButton:hover {
-                    opacity: 0.7;
-                    }
-                    @media screen and (min-width: 768px) {
-                    #nextButton {
-                        font-size: 3em;
-                    }
-                    }
-    
-                    #prevButton {
-                    color: #fff;
-                    font-size: 2em;
-                    transition: opacity 0.8s;
-                    }
-                    #prevButton:hover {
-                    opacity: 0.7;
-                    }
-                    @media screen and (min-width: 768px) {
-                    #prevButton {
-                        font-size: 3em;
-                    }
-                    }
-    
-                    #exitButton {
-                    color: #fff;
-                    font-size: 2em;
-                    transition: opacity 0.8s;
-                    position: absolute;
-                    top: 15px;
-                    right: 15px;
-                    }
-                    #exitButton:hover {
-                    opacity: 0.7;
-                    }
-                    @media screen and (min-width: 768px) {
-                    #exitButton {
-                        font-size: 3em;
-                    }
-                    }
-            </style>
+
     </head>
     <body>
         <div class="wrapper">
@@ -152,99 +38,195 @@
                            </div>
                         </div>
                         <nav class="header--navbar navbar" data-trigger="sticky">
-                           <div class="container">
-                              <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav"> <span class="sr-only">Toggle Navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="index.html" class="navbar-brand"> <img src="img/logo/logo.png" style="height: 40px; width: 40px"  alt=""> </a> </div>
-                              <div id="headerNav" class="navbar-collapse collapse float--right">
-                                 <ul class="header--nav-links nav">
-                                    <li class=""><a href="index.html">Home</a></li>
-                                    <li class=""><a href="facilities.html">Facilities</a></li>
-                                    <li class="dropdown active">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products</a> 
-                                            <ul class="dropdown-menu">
-                                               <li class="active"><a href="crab.html">Crabs</a></li>
-                                               <li class="dropdown "> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shrimps / Prawns</a>
-                                                  <ul class="dropdown-menu">
-                                                      <li> <a href="aquaculture.html" class="" >Aqua Culture</a></li>
-                                                      <li> <a href="seacaught.html" class="">Sea Caught</a></li>
-     
-                                                  </ul>
-                                               </li>
-                                            </ul>
-                                         </li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li class=""><a href="contact.html">Contact</a></li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </nav>
+                          <div class="container">
+                             <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav"> <span class="sr-only">Toggle Navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="index.html" class="navbar-brand"> <img src="img/logo/logo.png" style="height: 40px; width: 40px"  alt=""> </a> </div>
+                             <div id="headerNav" class="navbar-collapse collapse float--right">
+                                <ul class="header--nav-links nav">
+                                   <li><a href="contact.html">Contact</a></li>
+                                   <li class=""><a href="facilities.html">Facilities</a></li>
+                                   <li class="active dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products</a> 
+                                         <ul class="dropdown-menu">
+                                            <li class="active"><a href="crab.html">Crabs</a></li>
+                                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shrimps / Prawns</a>
+                                               <ul class="dropdown-menu">
+                                                  <li> <a href="aquaculture.html" class="" >Aqua Culture</a></li>
+                                                  <li> <a href="seacaught.html" class="" >Sea Caught</a></li>
+                                               </ul>
+                                            </li>
+                                         </ul>
+                                   </li>
+                                   <li><a href="about.html">About Us</a></li>
+                                   <li class=""><a href="index.html">Home</a></li>
+                                </ul>
+                             </div>
+                          </div>
+                       </nav>
                      </header>
                 <!-- End of NavBar -->
                 <!-- Start of crab images -->
-                <div class="section--title pb--50 text-center" style="margin-top:20px">
-                        <h2 class="h1 text-uppercase">Crabs</h2>
-                </div>
-                <section id="gallery" style="margin-bottom: 100px">
-                        <div class="container">
-                          <div id="image-gallery">
-                            <div class="row">
-                              <div class="col-sm-4 image">
-                                <div class="img-wrapper">
-                                  <a href="https://dummyimage.com/600x400/000/fff"><img src="https://dummyimage.com/600x400/000/fff" class="img-responsive"></a>
-                                  <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                <!-- Start of crab description -->
+                                <section class="faq--section pt--80 pb--20">
+                                  <div class="container">
+                                      <div class="section--title pb--50 text-center">
+                                          <h2 class="h1 text-uppercase">PASTEURIZED SWIMMING BLUE CRAB</h2>
+                                          <div class="row">
+                                              <div class="col-md-6 col-md-offset-3">
+                                                  <p>TURST - QUALITY - DELIVERANCE</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="row row--vc-md">
+                                          <div class="col-md-6 pb--60">
+                                              <div class="faq--img" data-scroll-reveal="left"> <img src="img/faq-img/01.jpg" alt="" class="center-block"> </div>
+                                          </div>
+                                          <div class="col-md-6 pb--60">
+                                              <div class="faq--items panel-group" id="faqItems01" data-scroll-reveal="">
+                                                  <div class="faq--item panel">
+                                                      <div class="panel-heading">
+                                                          <h3 class="h4"> <a href="#faqItems01_1" data-toggle="collapse" data-parent="#faqItems01"> <i class="fa fa-cloud"></i> <span>Product : BLUE CRAB (Portunus Pelagicus)</span> </a> </h3> </div>
+                                                      <div id="faqItems01_1" class="panel-collapse collapse in">
+                                                          <div class="panel-body">
+                                                              <p style="text-align: justify;text-align-last:center;">Crab caught from the sea coast are processed with individual care to preserve the natural taste and freshness.  It was Year Round Availability</p>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="faq--item panel">
+                                                      <div class="panel-heading">
+                                                          <h3 class="h4"> <a href="#faqItems01_2" class="collapsed" data-toggle="collapse" data-parent="#faqItems01"> <i class="fa fa-database"></i> <span>COOKING TECHNOLOGIES</span> </a> </h3> </div>
+                                                      <div id="faqItems01_2" class="panel-collapse collapse">
+                                                          <div class="panel-body">
+                                                              <p style="text-align: justify;text-align-last:center;">Ready to eat</p>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <div class="faq--item panel">
+                                                      <div class="panel-heading">
+                                                          <h3 class="h4"> <a href="#faqItems01_3" class="collapsed" data-toggle="collapse" data-parent="#faqItems01"> <i class="fa fa-server"></i> <span>PRODUCT INFO</span> </a> </h3> </div>
+                                                      <div id="faqItems01_3" class="panel-collapse collapse">
+                                                          <div class="panel-body">
+                                                              <p style="text-align: justify;text-align-last:center;">Crabs arrive live at the processing plant, then inspected cleaned, washed and shells removed.  Crabs then go through a process of pasteurization, which is simply applying a special heat treatment to the crab meat and sealing it in an airtightcontainer.  Approved crabs are cooked at 250 degrees, and placed in a cooler room until they stop steaming.  This can take up to 2 hours.  Cooled crabs are opened and the meat is picked by hand into metal cans.  In the packing room, the cans are checked, weighed and hermetically sealed.  During the final pasteurization process, the can of picket meat is heated in a water bath and then quicklky cooled in a ice slush.  The finished product is stored under refrigeration until shipped</p>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
                                   </div>
-                                </div>
-                                <h4 class="h4 text-right" style="margin-top:10px">Special</h4>
-                              </div>
-                              <div class="col-sm-4 image">
-                                <div class="img-wrapper">
-                                  <a href="https://dummyimage.com/600x400/000/fff"><img src="https://dummyimage.com/600x400/000/fff" class="img-responsive"></a>
-                                  <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                                  </div>
-                                </div>
-                                <h4 class="h4 text-right" style="margin-top:10px">Colossal</h4>
-                              </div>
-                              <div class="col-sm-4 image">
-                                <div class="img-wrapper">
-                                  <a href="https://dummyimage.com/600x400/000/fff"><img src="https://dummyimage.com/600x400/000/fff" class="img-responsive"></a>
-                                  <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                                  </div>
-                                </div>
-                                <h4 class="h4 text-right" style="margin-top:10px">Claw</h4>
-                              </div>
-                              <div class="col-sm-4 image">
-                                <div class="img-wrapper">
-                                  <a href="https://dummyimage.com/600x400/000/fff"><img src="https://dummyimage.com/600x400/000/fff" class="img-responsive"></a>
-                                  <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                                  </div>
-                                </div>
-                                <h4 class="h4 text-right" style="margin-top:10px">Lump</h4>
-                              </div>
-                              <div class="col-sm-4 image">
-                                <div class="img-wrapper">
-                                  <a href="https://dummyimage.com/600x400/000/fff"><img src="https://dummyimage.com/600x400/000/fff" class="img-responsive"></a>
-                                  <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                                  </div>
-                                </div>
-                                <h4 class="h4 text-right" style="margin-top:10px">Jumbo Lump</h4>
-                              </div>
-                              <div class="col-sm-4 image">
-                                <div class="img-wrapper">
-                                  <a href="https://dummyimage.com/600x400/000/fff"><img src="https://dummyimage.com/600x400/000/fff" class="img-responsive"></a>
-                                  <div class="img-overlay">
-                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                                  </div>
-                                </div>
-                                <h4 class="h4 text-right" style="margin-top:10px">Super Lump</h4>
-                              </div>
-                            </div><!-- End row -->
-                          </div><!-- End image gallery -->
-                        </div><!-- End container --> 
-                </section>
+                              </section>
+                                <!-- End of Crab description -->
+                            
+                                <section class="blog--section pt--80 pb--50 bg--c-lighterblue" style="margin-top: 100px">
+                                    <div class="container">
+                                        <div class="row AdjustRow">
+                                            <div class="col-md-4 col-sm-12 pb--30" style="margin-bottom: 300px">
+                                                <div class="post--item">
+                                                    <div class="post--img"> <img src="https://dummyimage.com/600x400/000/fff" style="height: inherit" alt=""> </div>
+                                                    <div class="post--inner">
+                                                        <div class="title">
+                                                            <h2 class="h4"><a href="blog-details.html" class="btn-link">Jumbo</a></h2> </div>
+                                                        <div class="content">
+                                                            <p style="text-align: justify;text-align-last:center;"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12 pb--30" style="margin-bottom: 300px">
+                                                <div class="post--item">
+                                                    <div class="post--img"> <img src="https://dummyimage.com/600x400/000/fff" style="height: inherit" alt=""> </div>
+                                                    <div class="post--inner">
+                                                        <div class="title">
+                                                            <h2 class="h4"><a href="blog-details.html" class="btn-link">Jumbo Lump</a></h2> </div>
+                                                        <div class="content">
+                                                            <p style="text-align: justify;text-align-last:center;">Jumbo Lump consists of the two large muscles connected to the swimming fins of the crab. It is perfect for cocktails, sauces or any preparation where the lump can be the star.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12 pb--30" style="margin-bottom: 300px">
+                                                <div class="post--item">
+                                                    <div class="post--img"> <img src="https://dummyimage.com/600x400/000/fff" style="height: inherit" alt=""></div>
+                                                    <div class="post--inner">
+
+                                                        <div class="title">
+                                                            <h2 class="h4"><a href="blog-details.html" class="btn-link">Colossal</a></h2> </div>
+                                                        <div class="content">
+                                                            <p style="text-align: justify;text-align-last:center;">Colossal crab meat comes from the connector muscles of the swimming fins of the larger crabs. They are firm, extra large moist nuggets of crab meat. It is often considered the king of the crab meat. When appearance is everything, colossal is your choice. Make the ultimate crab cocktail, gourmet crab cakes.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                          
+                                      
+                                    </div>
+                                </section>
+
+                                <section class="blog--section pt--80 pb--50 bg--c-lighterblue" style="margin-top: 0px">
+                                    <div class="container">
+                                        <div class="row AdjustRow">
+                                            <div class="col-md-4 col-sm-12 pb--30" style="margin-bottom: 300px">
+                                                <div class="post--item">
+                                                    <div class="post--img"> <img src="https://dummyimage.com/600x400/000/fff" style="height: inherit" alt=""> </div>
+                                                    <div class="post--inner">
+                                                        <div class="title">
+                                                            <h2 class="h4"><a href="blog-details.html" class="btn-link">Special</a></h2> </div>
+                                                        <div class="content">
+                                                            <p style="text-align: justify;text-align-last:center;">Special is often considered the most versatile grade of crabmeat for the widest range of recipes. It is finely shredded smaller pieces of white meat from the body of the crab. A great way to add filler to your crab cakes while keeping the crab flavor. Consider using in dips, soups, chowder, stuffing and casserole.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12 pb--30" style="margin-bottom: 300px">
+                                                <div class="post--item">
+                                                    <div class="post--img"> <img src="https://dummyimage.com/600x400/000/fff" style="height: inherit" alt=""> </div>
+                                                    <div class="post--inner">
+                                                        <div class="title">
+                                                            <h2 class="h4"><a href="blog-details.html" class="btn-link">Lump</a></h2> </div>
+                                                        <div class="content">
+                                                            <p style="text-align: justify;text-align-last:center;">Lump is a blend of broken jumbo lump and special crab meat from the body. Considered to be the sweetest crab meat the pieces are smaller than the jumbo lump crab meat but can be used in some of the same recipes. Lump crab meat is great for quiche, crab cakes, crab imperial, crab salads.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12 pb--30" style="margin-bottom: 300px">
+                                                <div class="post--item">
+                                                    <div class="post--img"> <img src="https://dummyimage.com/600x400/000/fff" style="height: inherit" alt=""></div>
+                                                    <div class="post--inner">
+
+                                                        <div class="title">
+                                                            <h2 class="h4"><a href="blog-details.html" class="btn-link">Super Lump</a></h2> </div>
+                                                        <div class="content">
+                                                            <p style="text-align: justify;text-align-last:center;">Super Lump is a blend of firm, thick and long pieces of white muscle crabmeat from the backfin, large pieces of body meat and broken jumbo lump. With larger pieces of meat than the lump, it gives the extra bite that your recipes need. It is the perfect size for salads, soups, casseroles and crab cakes.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                          
+                                      
+                                    </div>
+                                </section>
+                                <section class="blog--section pt--80 pb--50 bg--c-lighterblue" style="margin-bottom: 300px">
+                                    <div class="container">
+                                        <div class="row AdjustRow">
+                                            <div class="col-md-4 col-sm-12 pb--30" style="margin-bottom: 300px">
+                                                <div class="post--item">
+                                                    <div class="post--img"> <img src="https://dummyimage.com/600x400/000/fff" style="height: inherit" alt=""> </div>
+                                                    <div class="post--inner">
+                                                        <div class="title">
+                                                            <h2 class="h4"><a href="blog-details.html" class="btn-link">Claw</a></h2> </div>
+                                                        <div class="content">
+                                                            <p style="text-align: justify;text-align-last:center;">Claw meat is picked from the swimming fins of the crab. Meat from the claw has a brownish color and considered the most flavorful crab meat. The stronger crab flavor makes claw meat perfect for your heavy sauces and dishes with robust flavor profiles. Try claw meat in your gumbos, chowders, stuffing, deviled crab and croquettes.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                          
+                                      
+                                    </div>
+                                </section>
                 <!-- End of crab images -->
                 <!-- Start of Footer  -->
                 <footer class="footer--section" data-bg-img="img/footer/bgfooter.jpg">
@@ -277,93 +259,6 @@
         <script src="js/scrollreveal.min.js"></script> <script src="js/retina.min.js"></script> 
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK9f7sXWmqQ1E-ufRXV3VpXOn_ifKsDuc"></script> 
         <script src="js/main.js"></script>
-        <script>
-                // Gallery image hover
-                $( ".img-wrapper" ).hover(
-                function() {
-                    $(this).find(".img-overlay").animate({opacity: 1}, 600);
-                }, function() {
-                    $(this).find(".img-overlay").animate({opacity: 0}, 600);
-                }
-                );
-    
-                // Lightbox
-                var $overlay = $('<div id="overlay"></div>');
-                var $image = $("<img>");
-                var $prevButton = $('<div id="prevButton"><i class="fa fa-chevron-left"></i></div>');
-                var $nextButton = $('<div id="nextButton"><i class="fa fa-chevron-right"></i></div>');
-                var $exitButton = $('<div id="exitButton"><i class="fa fa-times"></i></div>');
-    
-                // Add overlay
-                $overlay.append($image).prepend($prevButton).append($nextButton).append($exitButton);
-                $("#gallery").append($overlay);
-    
-                // Hide overlay on default
-                $overlay.hide();
-    
-                // When an image is clicked
-                $(".img-overlay").click(function(event) {
-                // Prevents default behavior
-                event.preventDefault();
-                // Adds href attribute to variable
-                var imageLocation = $(this).prev().attr("href");
-                // Add the image src to $image
-                $image.attr("src", imageLocation);
-                // Fade in the overlay
-                $overlay.fadeIn("slow");
-                });
-    
-                // When the overlay is clicked
-                $overlay.click(function() {
-                // Fade out the overlay
-                $(this).fadeOut("slow");
-                });
-    
-                // When next button is clicked
-                $nextButton.click(function(event) {
-                // Hide the current image
-                $("#overlay img").hide();
-                // Overlay image location
-                var $currentImgSrc = $("#overlay img").attr("src");
-                // Image with matching location of the overlay image
-                var $currentImg = $('#image-gallery img[src="' + $currentImgSrc + '"]');
-                // Finds the next image
-                var $nextImg = $($currentImg.closest(".image").next().find("img"));
-                // All of the images in the gallery
-                var $images = $("#image-gallery img");
-                // If there is a next image
-                if ($nextImg.length > 0) { 
-                    // Fade in the next image
-                    $("#overlay img").attr("src", $nextImg.attr("src")).fadeIn(800);
-                } else {
-                    // Otherwise fade in the first image
-                    $("#overlay img").attr("src", $($images[0]).attr("src")).fadeIn(800);
-                }
-                // Prevents overlay from being hidden
-                event.stopPropagation();
-                });
-    
-                // When previous button is clicked
-                $prevButton.click(function(event) {
-                // Hide the current image
-                $("#overlay img").hide();
-                // Overlay image location
-                var $currentImgSrc = $("#overlay img").attr("src");
-                // Image with matching location of the overlay image
-                var $currentImg = $('#image-gallery img[src="' + $currentImgSrc + '"]');
-                // Finds the next image
-                var $nextImg = $($currentImg.closest(".image").prev().find("img"));
-                // Fade in the next image
-                $("#overlay img").attr("src", $nextImg.attr("src")).fadeIn(800);
-                // Prevents overlay from being hidden
-                event.stopPropagation();
-                });
-    
-                // When the exit button is clicked
-                $exitButton.click(function() {
-                // Fade out the overlay
-                $("#overlay").fadeOut("slow");
-                });
-            </script>
+
     </body>
 </html>
